@@ -3,7 +3,7 @@ import pandas as pd
 import joblib
 
 # Load model
-model = joblib.load("product_model.pkl")
+model = joblib.load("Amazon_Big_Sales_Dataset_2026_model.pkl")
 
 st.title("📦 Product Prediction App")
 
