@@ -28,7 +28,7 @@ review_count = st.sidebar.number_input(
 freq_product_name = st.sidebar.number_input(
     "Product Name Frequency",
     min_value=0,
-    value=1
+    value=1,
     step=1
 )
 
